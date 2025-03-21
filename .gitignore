@@ -172,3 +172,17 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+# Ignore generated JSON indexes
+inverted_index.json
+positional_index.json
+
+# Ignore all abstracts except those required
+!abstracts/   # Keep the abstracts folder
+!abstracts/*.txt  # Keep all TXT files inside abstracts
+
+# Ignore generated checkpoints for Jupyter Notebook
+.ipynb_checkpoints/
+
+# Ignore other unnecessary files
+__pycache__/
