@@ -15,7 +15,7 @@ This system retrieves documents using:
 - **Boolean Logic**: Supports `AND`, `OR`, `NOT` operators  
 - **Proximity Search**: Retrieves documents where terms co-occur within a specific word window (e.g., `neural network /2`)  
 
-### Components
+#### Components
 - Inverted Index for Boolean search  
 - Positional Index for proximity queries  
 - **Preprocessing**:  
@@ -24,7 +24,7 @@ This system retrieves documents using:
   - Stopword Removal  
   - Stemming
 
-### Evaluation Metrics
+#### Evaluation Metrics
 - Precision  
 - Recall  
 - F1-Score  
@@ -38,11 +38,11 @@ This system ranks documents using the **Vector Space Model**:
 - Cosine Similarity for ranking  
 - Applies a similarity threshold (α = 0.05) to filter results  
 
-### Components
+#### Components
 - Reuses inverted index and preprocessing steps from Boolean engine  
 - The only change: uses **lemmatization** instead of stemming  
 
-### Evaluation Metrics
+#### Evaluation Metrics
 - Precision  
 - Recall  
 - F1-Score  
