@@ -60,8 +60,3 @@ You **must manually add** these files before running the project.
 This project was developed as part of a **semester assignment** under the guidance of **Dr. Rafi**.  
 
 ---
-
-## License  
-This project is intended **for academic purposes only**. If you wish to **use or modify** this work, please ensure proper attribution.  
-
----
